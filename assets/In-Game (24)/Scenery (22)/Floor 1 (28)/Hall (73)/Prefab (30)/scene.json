@@ -1,0 +1,779 @@
+{
+  "nodes": [
+    {
+      "name": "Scene",
+      "children": [
+        {
+          "name": "Limits",
+          "children": [
+            {
+              "name": "Left",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": -11,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 11
+            },
+            {
+              "name": "Right",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 11,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 12
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 10
+        },
+        {
+          "name": "Background",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 3,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 1
+        },
+        {
+          "name": "Elevator",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": -4.4,
+            "y": -0.17,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 16
+        },
+        {
+          "name": "Elevator Button",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                },
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "ItemBehavior"
+                  },
+                  "id": 2
+                },
+                {
+                  "type": "Behavior",
+                  "config": {
+                    "behaviorName": "ElevatorButtonBehavior"
+                  },
+                  "id": 4
+                }
+              ],
+              "position": {
+                "x": -0.5,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2,
+                "y": 2,
+                "z": 1
+              },
+              "id": 9
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 42,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 2
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ElevatorButtonBehavior"
+              },
+              "id": 3
+            }
+          ],
+          "position": {
+            "x": -2.9,
+            "y": -0.17,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 3
+        },
+        {
+          "name": "Family Door",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3,
+                "y": 4,
+                "z": 1
+              },
+              "id": 5
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 41,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "FamilyDoorInBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 1,
+            "y": 0.2,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 2
+        },
+        {
+          "name": "Floor1_familyPortrait",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 3.2782554626464844e-7,
+                "y": 0,
+                "z": 0.09999998658895493
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.2,
+                "y": 1.2,
+                "z": 1
+              },
+              "id": 15
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 154,
+                "animationId": null
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 2
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 3
+            }
+          ],
+          "position": {
+            "x": -1,
+            "y": 1,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 8
+        },
+        {
+          "name": "Old Woman Door",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3,
+                "y": 4,
+                "z": 1
+              },
+              "id": 7
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 41,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "OldWomanDoorInBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 9.5,
+            "y": 0.2,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 6
+        },
+        {
+          "name": "Floor1_flowerPortrait",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 3.2782554626464844e-7,
+                "y": 0,
+                "z": 0.09999998658895493
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.2,
+                "y": 1.2,
+                "z": 1
+              },
+              "id": 18
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 155,
+                "animationId": null
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 2
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 3
+            }
+          ],
+          "position": {
+            "x": 7.3,
+            "y": 1,
+            "z": -0.9
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 17
+        },
+        {
+          "name": "Props",
+          "children": [
+            {
+              "name": "Vent",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 179,
+                    "animationId": 0
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": -8.68,
+                "y": 2.3,
+                "z": -0.9
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.9,
+                "y": 0.9,
+                "z": 1
+              },
+              "id": 22
+            },
+            {
+              "name": "Pot",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 177,
+                    "animationId": 0
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 6.300000190734863,
+                "y": 0.30000001192092896,
+                "z": -0.30000001192092896
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 20
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 21
+        },
+        {
+          "name": "Detective",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 7.3000006675720215,
+                "y": 1,
+                "z": -5.800000190734863
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.2000000476837158,
+                "y": 1.2000000476837158,
+                "z": 1
+              },
+              "id": 24
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 80,
+                "animationId": 0
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "DetectiveBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 5,
+            "y": -0.6,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 23
+        },
+        {
+          "name": "Selfiboy",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": -0.4,
+                "z": -0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2,
+                "y": 2,
+                "z": 1
+              },
+              "id": 26
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 259,
+                "animationId": 0
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SelfiboyBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -8.5,
+            "y": -1,
+            "z": 0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 25
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": 0
+    }
+  ],
+  "formatVersion": 1
+}

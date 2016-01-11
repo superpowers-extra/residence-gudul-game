@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "name": "Scene",
+      "children": [
+        {
+          "name": "Background",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 124,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 1
+        },
+        {
+          "name": "Limits",
+          "children": [
+            {
+              "name": "Left",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": -7.5,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 3
+            },
+            {
+              "name": "Right",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 7.5,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 4
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 2
+        },
+        {
+          "name": "Door",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3,
+                "y": 2,
+                "z": 1
+              },
+              "id": 6
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 99,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "OldWomanDoorBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 1.9,
+            "y": -2.1,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": -1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 5
+        },
+        {
+          "name": "Flower Pot",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": -0.10000002384185791
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1
+              },
+              "id": 8
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 125,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "FlowerPotBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -4.35,
+            "y": -0.1,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 7
+        },
+        {
+          "name": "Dead_Cat",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": -0.10000002384185791
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1
+              },
+              "id": 18
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 306,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -5.7,
+            "y": 0.3,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 17
+        },
+        {
+          "name": "Distritout",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": -0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1
+              },
+              "id": 20
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 68,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 3,
+            "y": -0.3,
+            "z": -0.4
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 19
+        },
+        {
+          "name": "Old Woman",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2.5,
+                "y": 2.5,
+                "z": 1
+              },
+              "id": 22
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 48,
+                "animationId": 0
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "OldWomanBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 21
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": 0
+    }
+  ],
+  "formatVersion": 1
+}

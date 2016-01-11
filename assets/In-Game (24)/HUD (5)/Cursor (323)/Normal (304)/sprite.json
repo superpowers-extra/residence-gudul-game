@@ -1,0 +1,37 @@
+{
+  "filtering": "pixelated",
+  "pixelsPerUnit": 20,
+  "framesPerSecond": 5,
+  "alphaTest": 0.1,
+  "grid": {
+    "width": 27,
+    "height": 27
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "name": "Animation",
+      "startFrameIndex": 0,
+      "endFrameIndex": 1,
+      "id": 0,
+      "speed": 1
+    }
+  ],
+  "maps": [
+    "map"
+  ],
+  "opacity": 1,
+  "frameOrder": "rows",
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "formatVersion": 3,
+  "wrapping": "clampToEdge"
+}

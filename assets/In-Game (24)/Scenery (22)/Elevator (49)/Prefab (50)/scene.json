@@ -1,0 +1,1048 @@
+{
+  "nodes": [
+    {
+      "name": "Scene",
+      "children": [
+        {
+          "name": "Limits",
+          "children": [
+            {
+              "name": "Left",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": "17"
+            },
+            {
+              "name": "Right",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": "18"
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "16"
+        },
+        {
+          "name": "Elevator Player Spawn",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0.2,
+            "z": 0.15
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "id": "12"
+        },
+        {
+          "name": "Origin",
+          "children": [
+            {
+              "name": "Shaft",
+              "children": [
+                {
+                  "name": "4",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "56",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 26.5,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "23"
+                },
+                {
+                  "name": "Cable",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "96",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.55,
+                    "y": 23.3,
+                    "z": 0.2
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "w": 0
+                  },
+                  "scale": {
+                    "x": -0.6000000238418579,
+                    "y": 0.3999999761581421,
+                    "z": 0.5
+                  },
+                  "id": "29"
+                },
+                {
+                  "name": "3",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "56",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 19.5,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "4"
+                },
+                {
+                  "name": "Cable",
+                  "children": [
+                    {
+                      "name": "Cable",
+                      "children": [],
+                      "components": [
+                        {
+                          "type": "SpriteRenderer",
+                          "config": {
+                            "spriteAssetId": "96",
+                            "animationId": null,
+                            "overrideOpacity": false,
+                            "color": "ffffff",
+                            "castShadow": false,
+                            "receiveShadow": false,
+                            "materialType": "basic"
+                          },
+                          "id": "0"
+                        }
+                      ],
+                      "position": {
+                        "x": -0.0000010089006536873057,
+                        "y": -5.749997615814209,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1,
+                        "w": 0
+                      },
+                      "scale": {
+                        "x": -0.9999998807907104,
+                        "y": 0.9999998807907104,
+                        "z": 1
+                      },
+                      "id": "28"
+                    }
+                  ],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "96",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.6399999856948853,
+                    "y": 17.5,
+                    "z": 0.20000000298023224
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "w": 0
+                  },
+                  "scale": {
+                    "x": -0.4000000059604645,
+                    "y": 0.4000000059604645,
+                    "z": 0.5
+                  },
+                  "id": "27"
+                },
+                {
+                  "name": "2",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "56",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 12.5,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "13"
+                },
+                {
+                  "name": "Cable",
+                  "children": [
+                    {
+                      "name": "Cable",
+                      "children": [],
+                      "components": [
+                        {
+                          "type": "SpriteRenderer",
+                          "config": {
+                            "spriteAssetId": "96",
+                            "animationId": null,
+                            "overrideOpacity": false,
+                            "color": "ffffff",
+                            "castShadow": false,
+                            "receiveShadow": false,
+                            "materialType": "basic"
+                          },
+                          "id": "0"
+                        }
+                      ],
+                      "position": {
+                        "x": 1.1877580163854873e-7,
+                        "y": -4.500002861022949,
+                        "z": 0
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1,
+                        "w": 0
+                      },
+                      "scale": {
+                        "x": -1,
+                        "y": 0.9999999403953552,
+                        "z": 1
+                      },
+                      "id": "30"
+                    }
+                  ],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "96",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.5499999523162842,
+                    "y": 11.800000190734863,
+                    "z": 0.20000000298023224
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.6000000238418579,
+                    "y": 0.4000000059604645,
+                    "z": 0.5
+                  },
+                  "id": "26"
+                },
+                {
+                  "name": "1",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "56",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 5.5,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "3"
+                },
+                {
+                  "name": "Cable",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "96",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.64,
+                    "y": 2.7,
+                    "z": 0.2
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.4,
+                    "y": -0.4,
+                    "z": 0.5
+                  },
+                  "id": "5"
+                },
+                {
+                  "name": "Cable",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "96",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.6399997472763062,
+                    "y": 4.999999523162842,
+                    "z": 0.20000000298023224
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.3999999761581421,
+                    "y": 0.3999999761581421,
+                    "z": 0.5
+                  },
+                  "id": "25"
+                },
+                {
+                  "name": "0",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "56",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": -1.5,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "14"
+                },
+                {
+                  "name": "-1",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "56",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": -7.9,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "15"
+                },
+                {
+                  "name": "RDC",
+                  "children": [],
+                  "components": [],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "33"
+                },
+                {
+                  "name": "RDC Foreground",
+                  "children": [
+                    {
+                      "name": "RDC Background",
+                      "children": [],
+                      "components": [
+                        {
+                          "type": "SpriteRenderer",
+                          "config": {
+                            "spriteAssetId": "299",
+                            "animationId": null,
+                            "overrideOpacity": false,
+                            "color": "ffffff",
+                            "castShadow": false,
+                            "receiveShadow": false,
+                            "materialType": "basic"
+                          },
+                          "id": "0"
+                        }
+                      ],
+                      "position": {
+                        "x": -2.108,
+                        "y": 0.5,
+                        "z": -0.877
+                      },
+                      "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "id": "32"
+                    }
+                  ],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "300",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.61,
+                    "y": -1.24,
+                    "z": 0.5
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 0.65,
+                    "y": 0.65,
+                    "z": 0.65
+                  },
+                  "id": "31"
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": 2.35,
+                "y": 0,
+                "z": -0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2.2,
+                "y": 2.2,
+                "z": 1
+              },
+              "id": "1"
+            },
+            {
+              "name": "Cabin",
+              "children": [
+                {
+                  "name": "Floor",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "53",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.05
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "6"
+                },
+                {
+                  "name": "Glass",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "spriteAssetId": "86",
+                        "animationId": null,
+                        "overrideOpacity": false,
+                        "color": "ffffff",
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "materialType": "basic"
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.1
+                  },
+                  "orientation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "id": "7"
+                }
+              ],
+              "components": [],
+              "position": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2.5,
+                "y": 2.5,
+                "z": 2
+              },
+              "id": "2"
+            },
+            {
+              "name": "Cloud",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "93",
+                    "animationId": null,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -4,
+                "y": -0.5,
+                "z": -0.9
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": "11"
+            },
+            {
+              "name": "City Foreground",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "88",
+                    "animationId": null,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -4.5,
+                "y": -0.6,
+                "z": -1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.9,
+                "y": 0.9,
+                "z": 0.9
+              },
+              "id": "9"
+            },
+            {
+              "name": "City Background",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "90",
+                    "animationId": null,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -6,
+                "y": 0.5,
+                "z": -2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": "8"
+            },
+            {
+              "name": "Background",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "94",
+                    "animationId": null,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -3,
+                "y": 0.5,
+                "z": -3
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1.2,
+                "y": 1.2,
+                "z": 1
+              },
+              "id": "10"
+            },
+            {
+              "name": "Bandes",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "137",
+                    "animationId": null,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -2,
+                "y": 0,
+                "z": 0.6
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2,
+                "y": 1,
+                "z": 1
+              },
+              "id": "20"
+            },
+            {
+              "name": "Black",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": "148",
+                    "animationId": null,
+                    "overrideOpacity": false,
+                    "color": "ffffff",
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "materialType": "basic"
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 15,
+                "y": 0,
+                "z": -0.11
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": "22"
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": "19"
+        }
+      ],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "ElevatorBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": "0"
+    }
+  ],
+  "formatVersion": 1
+}

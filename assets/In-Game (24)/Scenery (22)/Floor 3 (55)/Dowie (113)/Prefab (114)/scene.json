@@ -1,0 +1,898 @@
+{
+  "nodes": [
+    {
+      "name": "Scene",
+      "children": [
+        {
+          "name": "Limits",
+          "children": [
+            {
+              "name": "Left",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": -7,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 6
+            },
+            {
+              "name": "Right",
+              "children": [],
+              "components": [],
+              "position": {
+                "x": 7.5,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "id": 7
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 5
+        },
+        {
+          "name": "Background",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 115,
+                "animationId": null
+              },
+              "id": 0
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 1
+        },
+        {
+          "name": "Intro",
+          "children": [],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "DowieIntroBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 26
+        },
+        {
+          "name": "Outro",
+          "children": [],
+          "components": [
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "DowieOutroBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 27
+        },
+        {
+          "name": "Hall Door",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3,
+                "y": 2,
+                "z": 1
+              },
+              "id": 9
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 99,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "PlayerHallDoorBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -4.9,
+            "y": -2.2,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": -1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 8
+        },
+        {
+          "name": "Distritout",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": -0.2,
+                "y": -0.5,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3,
+                "y": 3,
+                "z": 1
+              },
+              "id": 10
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 68,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -1,
+            "y": -0.1,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 2
+        },
+        {
+          "name": "Start",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": 2.3,
+            "y": 0,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 11
+        },
+        {
+          "name": "Chicken",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 167,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BoughtItemBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 5.4,
+            "y": 0,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 12
+        },
+        {
+          "name": "Apple",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 229,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BoughtItemBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 5,
+            "y": 1.4,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 13
+        },
+        {
+          "name": "Axe",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 230,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BoughtItemBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 7.2,
+            "y": -0.9,
+            "z": -0.11
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 14
+        },
+        {
+          "name": "Swing",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 231,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BoughtItemBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": -6.8,
+            "y": 1.5,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 15
+        },
+        {
+          "name": "Chiome",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 83,
+                "animationId": 0
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BoughtItemBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": 5.7,
+            "y": -1.3,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": -1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 16
+        },
+        {
+          "name": "Crisps",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 232,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BoughtItemBehavior"
+              },
+              "id": 1
+            }
+          ],
+          "position": {
+            "x": -3,
+            "y": -1.5,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 17
+        },
+        {
+          "name": "Dowie_Clothes",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3,
+                "y": 1.2,
+                "z": 1
+              },
+              "id": 22
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 290,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -5.1,
+            "y": 0.15,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 18
+        },
+        {
+          "name": "Dowie_Books",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2,
+                "y": 1.5,
+                "z": 1
+              },
+              "id": 23
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 291,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 6.8,
+            "y": 1.8,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 19
+        },
+        {
+          "name": "Dowie_Sofa",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 3.5,
+                "y": 2.5,
+                "z": 1
+              },
+              "id": 24
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 292,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": 2.85,
+            "y": -0.5,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 20
+        },
+        {
+          "name": "Dowie_CardboardBox",
+          "children": [
+            {
+              "name": "Rectangle",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "spriteAssetId": 38,
+                    "animationId": null
+                  },
+                  "id": 0
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0.1
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 2,
+                "y": 1.5,
+                "z": 1
+              },
+              "id": 25
+            }
+          ],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "spriteAssetId": 293,
+                "animationId": null
+              },
+              "id": 0
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ItemBehavior"
+              },
+              "id": 1
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "SimplePhraseBehavior"
+              },
+              "id": 2
+            }
+          ],
+          "position": {
+            "x": -0.9,
+            "y": 2.1,
+            "z": -0.1
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "id": 21
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "id": 0
+    }
+  ],
+  "formatVersion": 1
+}

@@ -1,0 +1,58 @@
+{
+  "filtering": "pixelated",
+  "pixelsPerUnit": 20,
+  "framesPerSecond": 10,
+  "alphaTest": 0.1,
+  "grid": {
+    "width": 73,
+    "height": 73
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "name": "Idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 26,
+      "id": 0,
+      "speed": 1
+    },
+    {
+      "name": "Talk",
+      "startFrameIndex": 27,
+      "endFrameIndex": 34,
+      "id": 1,
+      "speed": 1
+    },
+    {
+      "name": "Walk",
+      "startFrameIndex": 45,
+      "endFrameIndex": 52,
+      "id": 2,
+      "speed": 1
+    },
+    {
+      "name": "Run",
+      "startFrameIndex": 36,
+      "endFrameIndex": 43,
+      "id": 3,
+      "speed": 1
+    }
+  ],
+  "maps": [
+    "map"
+  ],
+  "opacity": 1,
+  "frameOrder": "rows",
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "formatVersion": 3,
+  "wrapping": "clampToEdge"
+}

@@ -1,0 +1,555 @@
+{
+  "behaviors": {
+    "OutroBehavior": {
+      "scriptId": "266",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DialogBehavior": {
+      "scriptId": "20",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isVisible",
+          "type": "boolean"
+        },
+        {
+          "name": "closedTimer",
+          "type": "number"
+        },
+        {
+          "name": "previousTextId",
+          "type": "string"
+        },
+        {
+          "name": "previousRandomTextIndex",
+          "type": "number"
+        },
+        {
+          "name": "activeChoiceIndex",
+          "type": "number"
+        },
+        {
+          "name": "textId",
+          "type": "string"
+        }
+      ]
+    },
+    "ItemBehavior": {
+      "scriptId": "16",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isHovered",
+          "type": "boolean"
+        },
+        {
+          "name": "type",
+          "type": "string"
+        }
+      ]
+    },
+    "SimplePhraseBehavior": {
+      "scriptId": "174",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "LanguageBehavior": {
+      "scriptId": "316",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "hovered",
+          "type": "string"
+        }
+      ]
+    },
+    "MenuBehavior": {
+      "scriptId": "147",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "targetY",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "tweenStarted",
+          "type": "boolean"
+        },
+        {
+          "name": "titleScale",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "PreIntroBehavior": {
+      "scriptId": "287",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        }
+      ]
+    },
+    "CameraBehavior": {
+      "scriptId": "2",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "offset",
+          "type": "number"
+        },
+        {
+          "name": "blackscreenOpacity",
+          "type": "number"
+        },
+        {
+          "name": "blackscreenTargetOpacity",
+          "type": "number"
+        },
+        {
+          "name": "targetScene",
+          "type": "string"
+        },
+        {
+          "name": "targetActor",
+          "type": "string"
+        }
+      ]
+    },
+    "PlayerBehavior": {
+      "scriptId": "9",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "baseSpeed",
+          "type": "number"
+        },
+        {
+          "name": "moveTargetX",
+          "type": "number"
+        },
+        {
+          "name": "canMove",
+          "type": "boolean"
+        },
+        {
+          "name": "autoPilot",
+          "type": "boolean"
+        },
+        {
+          "name": "leftLimit",
+          "type": "number"
+        },
+        {
+          "name": "rightLimit",
+          "type": "number"
+        },
+        {
+          "name": "activateDistance",
+          "type": "number"
+        }
+      ]
+    },
+    "TextBehavior": {
+      "scriptId": "14",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "text",
+          "type": "string"
+        },
+        {
+          "name": "alignment",
+          "type": "string"
+        },
+        {
+          "name": "opacity",
+          "type": "number"
+        },
+        {
+          "name": "timer",
+          "type": "number"
+        },
+        {
+          "name": "delay",
+          "type": "number"
+        },
+        {
+          "name": "lastShowedLetter",
+          "type": "number"
+        }
+      ]
+    },
+    "ElevatorBehavior": {
+      "scriptId": "51",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "floorOffset",
+          "type": "number"
+        },
+        {
+          "name": "nextFloorId",
+          "type": "number"
+        },
+        {
+          "name": "shaftAnimSpeed",
+          "type": "number"
+        }
+      ]
+    },
+    "ElevatorButtonBehavior": {
+      "scriptId": "82",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FamilyDoorInBehavior": {
+      "scriptId": "75",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "JanitorDoorBehavior": {
+      "scriptId": "97",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "activated",
+          "type": "boolean"
+        },
+        {
+          "name": "finishedOpening",
+          "type": "boolean"
+        },
+        {
+          "name": "isKnocking",
+          "type": "boolean"
+        }
+      ]
+    },
+    "JanitorHallDoorBehavior": {
+      "scriptId": "100",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FamilyHallDoorBehavior": {
+      "scriptId": "102",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BathroomExitDoorBehavior": {
+      "scriptId": "109",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BathroomDoorBehavior": {
+      "scriptId": "110",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SuckerBehavior": {
+      "scriptId": "112",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PlayerHallDoorBehavior": {
+      "scriptId": "117",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PlayerDoorBehavior": {
+      "scriptId": "118",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CaveDoorBehavior": {
+      "scriptId": "139",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CaveHallDoorBehavior": {
+      "scriptId": "141",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "IntroCameraBehavior": {
+      "scriptId": "196",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "properties",
+          "type": "any"
+        },
+        {
+          "name": "exitIntro",
+          "type": "boolean"
+        },
+        {
+          "name": "outroTimer",
+          "type": "number"
+        },
+        {
+          "name": "outroDelay",
+          "type": "number"
+        },
+        {
+          "name": "exitOutro",
+          "type": "boolean"
+        },
+        {
+          "name": "isBroken",
+          "type": "boolean"
+        },
+        {
+          "name": "canBuy",
+          "type": "boolean"
+        },
+        {
+          "name": "canClick",
+          "type": "boolean"
+        },
+        {
+          "name": "isClicking",
+          "type": "boolean"
+        },
+        {
+          "name": "clickTimer",
+          "type": "number"
+        },
+        {
+          "name": "clickDelay",
+          "type": "number"
+        },
+        {
+          "name": "pushHandPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "pushHandAngle",
+          "type": "number"
+        },
+        {
+          "name": "objectPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "objectScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "boughtObjectPosition",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "boughtObjectScale",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "boughtObjectAngles",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "currentItem",
+          "type": "number"
+        }
+      ]
+    },
+    "OuafbarfGirlBehavior": {
+      "scriptId": "347",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "JanitorWireBehavior": {
+      "scriptId": "239",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "electroTimer",
+          "type": "number"
+        }
+      ]
+    },
+    "OuafbarfMomBehavior": {
+      "scriptId": "346",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "OuafbarfDadBehavior": {
+      "scriptId": "344",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SelfiboyBehavior": {
+      "scriptId": "342",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DowieOutroBehavior": {
+      "scriptId": "340",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DowieIntroBehavior": {
+      "scriptId": "339",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BeautyBehavior": {
+      "scriptId": "215",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "JanitorPortraitBehavior": {
+      "scriptId": "223",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MaidBehavior": {
+      "scriptId": "225",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BeautyDoorBehavior": {
+      "scriptId": "234",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "JanitorFakeBehavior": {
+      "scriptId": "243",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "JanitorRealBehavior": {
+      "scriptId": "255",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CopBehavior": {
+      "scriptId": "264",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "triggered",
+          "type": "boolean"
+        },
+        {
+          "name": "playerAttacking",
+          "type": "boolean"
+        },
+        {
+          "name": "runLeft",
+          "type": "boolean"
+        },
+        {
+          "name": "runRight",
+          "type": "boolean"
+        }
+      ]
+    },
+    "MammothBehavior": {
+      "scriptId": "267",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "escaping",
+          "type": "boolean"
+        }
+      ]
+    },
+    "CursorBehavior": {
+      "scriptId": "288",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "OldWomanDoorInBehavior": {
+      "scriptId": "295",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isKnocking",
+          "type": "boolean"
+        }
+      ]
+    },
+    "OldWomanDoorBehavior": {
+      "scriptId": "297",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FatsexHallDoorBehavior": {
+      "scriptId": "317",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MusclorDoorBehavior": {
+      "scriptId": "320",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "activated",
+          "type": "boolean"
+        },
+        {
+          "name": "isKnocking",
+          "type": "boolean"
+        },
+        {
+          "name": "hitboxWidth",
+          "type": "number"
+        },
+        {
+          "name": "hitboxHeight",
+          "type": "number"
+        }
+      ]
+    },
+    "MusclorBehavior": {
+      "scriptId": "322",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FlowerPotBehavior": {
+      "scriptId": "329",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "OldWomanBehavior": {
+      "scriptId": "331",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "DetectiveBehavior": {
+      "scriptId": "333",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "move",
+          "type": "boolean"
+        }
+      ]
+    },
+    "OilBehavior": {
+      "scriptId": "336",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ChiomeBehavior": {
+      "scriptId": "337",
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}

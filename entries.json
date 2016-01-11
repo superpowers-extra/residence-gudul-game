@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "235",
+    "name": "Sound Credits",
+    "type": "script"
+  },
+  {
+    "id": "314",
+    "name": "Language",
+    "type": null,
+    "children": [
+      {
+        "id": "315",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "316",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "318",
+        "name": "French",
+        "type": "sprite"
+      },
+      {
+        "id": "319",
+        "name": "English",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "145",
+    "name": "Menu",
+    "type": null,
+    "children": [
+      {
+        "id": "146",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "147",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "143",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "191",
+        "name": "Title",
+        "type": "sprite"
+      },
+      {
+        "id": "265",
+        "name": "Title Murder",
+        "type": "sprite"
+      },
+      {
+        "id": "338",
+        "name": "Title Murder En",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "285",
+    "name": "Pre-Intro",
+    "type": null,
+    "children": [
+      {
+        "id": "305",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "287",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "283",
+        "name": "Chair",
+        "type": "sprite"
+      },
+      {
+        "id": "282",
+        "name": "Chair Light",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "159",
+    "name": "Intro",
+    "type": null,
+    "children": [
+      {
+        "id": "195",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "196",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "173",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "202",
+        "name": "Black Screen",
+        "type": "sprite"
+      },
+      {
+        "id": "203",
+        "name": "Error",
+        "type": "sprite"
+      },
+      {
+        "id": "165",
+        "name": "Happy Dowie",
+        "type": "sprite"
+      },
+      {
+        "id": "164",
+        "name": "Angry Dowie",
+        "type": "sprite"
+      },
+      {
+        "id": "162",
+        "name": "Push Hand",
+        "type": "sprite"
+      },
+      {
+        "id": "163",
+        "name": "Button Hand",
+        "type": "sprite"
+      },
+      {
+        "id": "345",
+        "name": "Button Hand Pressed",
+        "type": "sprite"
+      },
+      {
+        "id": "166",
+        "name": "Crisps",
+        "type": "sprite"
+      },
+      {
+        "id": "228",
+        "name": "Chicken",
+        "type": "sprite"
+      },
+      {
+        "id": "168",
+        "name": "Chiome",
+        "type": "sprite"
+      },
+      {
+        "id": "169",
+        "name": "Apple",
+        "type": "sprite"
+      },
+      {
+        "id": "170",
+        "name": "Swing",
+        "type": "sprite"
+      },
+      {
+        "id": "171",
+        "name": "Axe",
+        "type": "sprite"
+      },
+      {
+        "id": "172",
+        "name": "Buy Now!",
+        "type": "sprite"
+      },
+      {
+        "id": "358",
+        "name": "Updating",
+        "type": "sprite"
+      },
+      {
+        "id": "204",
+        "name": "Distritou Broken",
+        "type": "sound"
+      },
+      {
+        "id": "222",
+        "name": "Click Sound",
+        "type": "sound"
+      },
+      {
+        "id": "241",
+        "name": "Error Click Sound",
+        "type": "sound"
+      },
+      {
+        "id": "242",
+        "name": "Cash",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "In-Game",
+    "type": null,
+    "children": [
+      {
+        "id": "1",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "62",
+        "name": "Text Data Fr",
+        "type": "script"
+      },
+      {
+        "id": "308",
+        "name": "Text Data En",
+        "type": "script"
+      },
+      {
+        "id": "0",
+        "name": "Game Manager",
+        "type": "script"
+      },
+      {
+        "id": "20",
+        "name": "Dialog Behavior",
+        "type": "script"
+      },
+      {
+        "id": "176",
+        "name": "Interactions",
+        "type": null,
+        "children": [
+          {
+            "id": "16",
+            "name": "Item Behavior",
+            "type": "script"
+          },
+          {
+            "id": "174",
+            "name": "Simple Phrase Behavior",
+            "type": "script"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Player",
+        "type": null,
+        "children": [
+          {
+            "id": "9",
+            "name": "Behavior",
+            "type": "script"
+          },
+          {
+            "id": "198",
+            "name": "Footsteps",
+            "type": "sound"
+          },
+          {
+            "id": "7",
+            "name": "Sprite",
+            "type": "sprite"
+          },
+          {
+            "id": "298",
+            "name": "Sucker Attack",
+            "type": "sprite"
+          },
+          {
+            "id": "258",
+            "name": "Janitor Skin",
+            "type": "sprite"
+          },
+          {
+            "id": "302",
+            "name": "Hero Electro",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "HUD",
+        "type": null,
+        "children": [
+          {
+            "id": "2",
+            "name": "Camera Behavior",
+            "type": "script"
+          },
+          {
+            "id": "25",
+            "name": "Blackscreen",
+            "type": "sprite"
+          },
+          {
+            "id": "137",
+            "name": "Bandes noires",
+            "type": "sprite"
+          },
+          {
+            "id": "26",
+            "name": "Text",
+            "type": null,
+            "children": [
+              {
+                "id": "6",
+                "name": "Font",
+                "type": "sprite"
+              },
+              {
+                "id": "14",
+                "name": "Behavior",
+                "type": "script"
+              },
+              {
+                "id": "17",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "101",
+                "name": "Select Choice",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "52",
+            "name": "Inventory",
+            "type": null,
+            "children": [
+              {
+                "id": "58",
+                "name": "Sucker",
+                "type": "sprite"
+              },
+              {
+                "id": "59",
+                "name": "Oil",
+                "type": "sprite"
+              },
+              {
+                "id": "253",
+                "name": "Skin",
+                "type": "sprite"
+              },
+              {
+                "id": "60",
+                "name": "Card",
+                "type": "sprite"
+              },
+              {
+                "id": "61",
+                "name": "Flower",
+                "type": "sprite"
+              },
+              {
+                "id": "81",
+                "name": "Backdrop",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "323",
+            "name": "Cursor",
+            "type": null,
+            "children": [
+              {
+                "id": "288",
+                "name": "Behavior",
+                "type": "script"
+              },
+              {
+                "id": "304",
+                "name": "Normal",
+                "type": "sprite"
+              },
+              {
+                "id": "280",
+                "name": "Interaction",
+                "type": "sprite"
+              },
+              {
+                "id": "303",
+                "name": "Bubble",
+                "type": "sprite"
+              },
+              {
+                "id": "335",
+                "name": "Fast Forward",
+                "type": "sprite"
+              },
+              {
+                "id": "334",
+                "name": "No Fast Forward",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "name": "Scenery",
+        "type": null,
+        "children": [
+          {
+            "id": "41",
+            "name": "Door In",
+            "type": "sprite"
+          },
+          {
+            "id": "289",
+            "name": "Door Open",
+            "type": "sprite"
+          },
+          {
+            "id": "99",
+            "name": "Door Out",
+            "type": "sprite"
+          },
+          {
+            "id": "321",
+            "name": "Door Out Beauty",
+            "type": "sprite"
+          },
+          {
+            "id": "68",
+            "name": "Distritou",
+            "type": "sprite"
+          },
+          {
+            "id": "49",
+            "name": "Elevator",
+            "type": null,
+            "children": [
+              {
+                "id": "50",
+                "name": "Prefab",
+                "type": "scene"
+              },
+              {
+                "id": "82",
+                "name": "Button Behavior",
+                "type": "script"
+              },
+              {
+                "id": "51",
+                "name": "Elevator",
+                "type": "script"
+              },
+              {
+                "id": "42",
+                "name": "Button",
+                "type": "sprite"
+              },
+              {
+                "id": "53",
+                "name": "Cabin floor",
+                "type": "sprite"
+              },
+              {
+                "id": "86",
+                "name": "Cabin glass",
+                "type": "sprite"
+              },
+              {
+                "id": "56",
+                "name": "Shaft",
+                "type": "sprite"
+              },
+              {
+                "id": "193",
+                "name": "Shaft Long",
+                "type": "sprite"
+              },
+              {
+                "id": "299",
+                "name": "RDC background",
+                "type": "sprite"
+              },
+              {
+                "id": "300",
+                "name": "RDC foreground",
+                "type": "sprite"
+              },
+              {
+                "id": "90",
+                "name": "City1",
+                "type": "sprite"
+              },
+              {
+                "id": "88",
+                "name": "City2",
+                "type": "sprite"
+              },
+              {
+                "id": "93",
+                "name": "Cloud",
+                "type": "sprite"
+              },
+              {
+                "id": "94",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "96",
+                "name": "Cables",
+                "type": "sprite"
+              },
+              {
+                "id": "148",
+                "name": "Black",
+                "type": "sprite"
+              },
+              {
+                "id": "199",
+                "name": "Elevator button sound",
+                "type": "sound"
+              },
+              {
+                "id": "200",
+                "name": "Opening door",
+                "type": "sound"
+              }
+            ]
+          },
+          {
+            "id": "54",
+            "name": "Floor 0",
+            "type": null,
+            "children": [
+              {
+                "id": "76",
+                "name": "Hall",
+                "type": null,
+                "children": [
+                  {
+                    "id": "85",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "84",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "224",
+                    "name": "Broken Portrait Box",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "217",
+                    "name": "Pass On",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "219",
+                    "name": "Pass Off",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "156",
+                    "name": "Maid Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "157",
+                    "name": "Janitor Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "142",
+                    "name": "Cave Door",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "149",
+                    "name": "Main Door",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "178",
+                    "name": "Vent",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "97",
+                    "name": "Janitor Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "139",
+                    "name": "Cave Door Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "223",
+                    "name": "Janitor Portrait Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "239",
+                    "name": "Janitor Wire Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "225",
+                    "name": "Maid Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "264",
+                    "name": "Cop Behavior",
+                    "type": "script"
+                  }
+                ]
+              },
+              {
+                "id": "77",
+                "name": "Janitor",
+                "type": null,
+                "children": [
+                  {
+                    "id": "106",
+                    "name": "Bathroom",
+                    "type": null,
+                    "children": [
+                      {
+                        "id": "108",
+                        "name": "Prefab",
+                        "type": "scene"
+                      },
+                      {
+                        "id": "105",
+                        "name": "Background",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "104",
+                        "name": "Sucker",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "111",
+                        "name": "Janitor Dead",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "197",
+                        "name": "Blood",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "109",
+                        "name": "Door",
+                        "type": "script"
+                      },
+                      {
+                        "id": "112",
+                        "name": "Sucker Behavior",
+                        "type": "script"
+                      },
+                      {
+                        "id": "255",
+                        "name": "Janitor Real Behavior",
+                        "type": "script"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "78",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "63",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "326",
+                    "name": "Broom",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "161",
+                    "name": "Door In",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "69",
+                    "name": "Hot Picture",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "67",
+                    "name": "Janitor Fake",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "175",
+                    "name": "Light",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "100",
+                    "name": "Hall Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "110",
+                    "name": "Bathroom Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "243",
+                    "name": "Janitor Fake Behavior",
+                    "type": "script"
+                  }
+                ]
+              },
+              {
+                "id": "127",
+                "name": "Cave",
+                "type": null,
+                "children": [
+                  {
+                    "id": "131",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "129",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "144",
+                    "name": "Overlay",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "140",
+                    "name": "Stair",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "182",
+                    "name": "Mammoth",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "141",
+                    "name": "Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "267",
+                    "name": "Mammoth Behavior",
+                    "type": "script"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "28",
+            "name": "Floor 1",
+            "type": null,
+            "children": [
+              {
+                "id": "73",
+                "name": "Hall",
+                "type": null,
+                "children": [
+                  {
+                    "id": "30",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "75",
+                    "name": "Family Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "295",
+                    "name": "Old Woman Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "333",
+                    "name": "Detective Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "3",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "179",
+                    "name": "Vent",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "177",
+                    "name": "Pot",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "154",
+                    "name": "Family Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "155",
+                    "name": "Flower Portrait",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "87",
+                "name": "Family",
+                "type": null,
+                "children": [
+                  {
+                    "id": "91",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "95",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "102",
+                    "name": "Hall Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "337",
+                    "name": "Chiome Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "344",
+                    "name": "Ouafbarf Dad Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "346",
+                    "name": "Ouafbarf Mom Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "347",
+                    "name": "Ouafbarf Girl Behavior",
+                    "type": "script"
+                  }
+                ]
+              },
+              {
+                "id": "123",
+                "name": "Old Woman",
+                "type": null,
+                "children": [
+                  {
+                    "id": "296",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "297",
+                    "name": "Hall Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "331",
+                    "name": "Old Woman Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "329",
+                    "name": "Flower Pot Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "124",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "125",
+                    "name": "Flower Pot",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "274",
+                    "name": "Watering",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "306",
+                    "name": "Dead Cat",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "276",
+                    "name": "Sofa",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "277",
+                    "name": "Plant 1",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "278",
+                    "name": "Plant 2",
+                    "type": "sprite"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "29",
+            "name": "Floor 2",
+            "type": null,
+            "children": [
+              {
+                "id": "74",
+                "name": "Hall",
+                "type": null,
+                "children": [
+                  {
+                    "id": "31",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "27",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "180",
+                    "name": "Vent",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "152",
+                    "name": "Detective Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "153",
+                    "name": "Musclor Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "320",
+                    "name": "Musclor Door Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "322",
+                    "name": "Musclor Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "342",
+                    "name": "Selfiboy Behavior",
+                    "type": "script"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "55",
+            "name": "Floor 3",
+            "type": null,
+            "children": [
+              {
+                "id": "89",
+                "name": "Hall",
+                "type": null,
+                "children": [
+                  {
+                    "id": "57",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "92",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "151",
+                    "name": "Beauty Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "43",
+                    "name": "Dowie Portrait",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "181",
+                    "name": "Vent",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "118",
+                    "name": "Player Door Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "215",
+                    "name": "Beauty Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "234",
+                    "name": "Beauty Door Behavior",
+                    "type": "script"
+                  }
+                ]
+              },
+              {
+                "id": "113",
+                "name": "Dowie",
+                "type": null,
+                "children": [
+                  {
+                    "id": "114",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "115",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "117",
+                    "name": "Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "339",
+                    "name": "Intro",
+                    "type": "script"
+                  },
+                  {
+                    "id": "340",
+                    "name": "Outro",
+                    "type": "script"
+                  },
+                  {
+                    "id": "226",
+                    "name": "Items",
+                    "type": null,
+                    "children": [
+                      {
+                        "id": "227",
+                        "name": "Bought Item Behavior",
+                        "type": "script"
+                      },
+                      {
+                        "id": "167",
+                        "name": "Chicken",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "229",
+                        "name": "Apple",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "230",
+                        "name": "Axe",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "231",
+                        "name": "Swing",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "232",
+                        "name": "Crisps",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "290",
+                        "name": "Clothes",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "291",
+                        "name": "Books",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "292",
+                        "name": "Sofa",
+                        "type": "sprite"
+                      },
+                      {
+                        "id": "293",
+                        "name": "Box",
+                        "type": "sprite"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "309",
+                "name": "Beauty",
+                "type": null,
+                "children": [
+                  {
+                    "id": "311",
+                    "name": "Prefab",
+                    "type": "scene"
+                  },
+                  {
+                    "id": "317",
+                    "name": "Door",
+                    "type": "script"
+                  },
+                  {
+                    "id": "336",
+                    "name": "Oil Behavior",
+                    "type": "script"
+                  },
+                  {
+                    "id": "310",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "330",
+                    "name": "Beauty Oil",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "332",
+                    "name": "Door In",
+                    "type": "sprite"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "34",
+        "name": "Pnj",
+        "type": null,
+        "children": [
+          {
+            "id": "64",
+            "name": "Beauty",
+            "type": "sprite"
+          },
+          {
+            "id": "35",
+            "name": "Maid",
+            "type": "sprite"
+          },
+          {
+            "id": "36",
+            "name": "Cop",
+            "type": "sprite"
+          },
+          {
+            "id": "301",
+            "name": "Cop Hit",
+            "type": "sprite"
+          },
+          {
+            "id": "44",
+            "name": "Musclor",
+            "type": "sprite"
+          },
+          {
+            "id": "48",
+            "name": "Old Woman",
+            "type": "sprite"
+          },
+          {
+            "id": "80",
+            "name": "Detective",
+            "type": "sprite"
+          },
+          {
+            "id": "83",
+            "name": "Chiome",
+            "type": "sprite"
+          },
+          {
+            "id": "103",
+            "name": "Chienpere",
+            "type": "sprite"
+          },
+          {
+            "id": "116",
+            "name": "Chienmere",
+            "type": "sprite"
+          },
+          {
+            "id": "98",
+            "name": "Chienfille",
+            "type": "sprite"
+          },
+          {
+            "id": "259",
+            "name": "Selfiboy",
+            "type": "sprite"
+          },
+          {
+            "id": "71",
+            "name": "Face Sets",
+            "type": null,
+            "children": [
+              {
+                "id": "122",
+                "name": "Dowie",
+                "type": "sprite"
+              },
+              {
+                "id": "184",
+                "name": "Beauty",
+                "type": "sprite"
+              },
+              {
+                "id": "187",
+                "name": "Maid",
+                "type": "sprite"
+              },
+              {
+                "id": "240",
+                "name": "Janitor",
+                "type": "sprite"
+              },
+              {
+                "id": "185",
+                "name": "Cop",
+                "type": "sprite"
+              },
+              {
+                "id": "192",
+                "name": "Musclor",
+                "type": "sprite"
+              },
+              {
+                "id": "183",
+                "name": "Old Woman",
+                "type": "sprite"
+              },
+              {
+                "id": "186",
+                "name": "Detective",
+                "type": "sprite"
+              },
+              {
+                "id": "189",
+                "name": "Chienpere",
+                "type": "sprite"
+              },
+              {
+                "id": "324",
+                "name": "Chienmere",
+                "type": "sprite"
+              },
+              {
+                "id": "327",
+                "name": "Chienfille",
+                "type": "sprite"
+              },
+              {
+                "id": "325",
+                "name": "Chiome",
+                "type": "sprite"
+              },
+              {
+                "id": "341",
+                "name": "Selfiboy",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "37",
+        "name": "Hitbox",
+        "type": null,
+        "children": [
+          {
+            "id": "38",
+            "name": "Rectangle",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "126",
+    "name": "Music",
+    "type": null,
+    "children": [
+      {
+        "id": "212",
+        "name": "Intro",
+        "type": "sound"
+      },
+      {
+        "id": "209",
+        "name": "Elevator",
+        "type": "sound"
+      },
+      {
+        "id": "270",
+        "name": "Floor 0",
+        "type": null,
+        "children": [
+          {
+            "id": "213",
+            "name": "Janitor",
+            "type": "sound"
+          },
+          {
+            "id": "214",
+            "name": "Cave",
+            "type": "sound"
+          },
+          {
+            "id": "208",
+            "name": "Hall",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "271",
+        "name": "Floor 1",
+        "type": null,
+        "children": [
+          {
+            "id": "207",
+            "name": "Hall",
+            "type": "sound"
+          },
+          {
+            "id": "210",
+            "name": "Family",
+            "type": "sound"
+          },
+          {
+            "id": "211",
+            "name": "Old Woman",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "272",
+        "name": "Floor 2",
+        "type": null,
+        "children": [
+          {
+            "id": "206",
+            "name": "Hall",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "273",
+        "name": "Floor 3",
+        "type": null,
+        "children": [
+          {
+            "id": "205",
+            "name": "Hall",
+            "type": "sound"
+          },
+          {
+            "id": "233",
+            "name": "Beauty",
+            "type": "sound"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "236",
+    "name": "SFX",
+    "type": null,
+    "children": [
+      {
+        "id": "238",
+        "name": "Voices",
+        "type": null,
+        "children": [
+          {
+            "id": "237",
+            "name": "Beauty",
+            "type": "sound"
+          },
+          {
+            "id": "244",
+            "name": "Maid",
+            "type": "sound"
+          },
+          {
+            "id": "245",
+            "name": "Cop",
+            "type": "sound"
+          },
+          {
+            "id": "246",
+            "name": "Cop run",
+            "type": "sound"
+          },
+          {
+            "id": "247",
+            "name": "Musclor",
+            "type": "sound"
+          },
+          {
+            "id": "248",
+            "name": "Old Woman",
+            "type": "sound"
+          },
+          {
+            "id": "250",
+            "name": "Detective",
+            "type": "sound"
+          },
+          {
+            "id": "251",
+            "name": "Chiome",
+            "type": "sound"
+          },
+          {
+            "id": "252",
+            "name": "Chienpere",
+            "type": "sound"
+          },
+          {
+            "id": "354",
+            "name": "Chienmere",
+            "type": "sound"
+          },
+          {
+            "id": "355",
+            "name": "Chienfille",
+            "type": "sound"
+          },
+          {
+            "id": "328",
+            "name": "Dowie",
+            "type": "sound"
+          },
+          {
+            "id": "343",
+            "name": "Selfiboy",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "201",
+        "name": "Opening Door",
+        "type": "sound"
+      },
+      {
+        "id": "254",
+        "name": "Mammouth",
+        "type": "sound"
+      },
+      {
+        "id": "218",
+        "name": "Door Pass",
+        "type": "sound"
+      },
+      {
+        "id": "221",
+        "name": "Locked Door",
+        "type": "sound"
+      },
+      {
+        "id": "348",
+        "name": "Hover",
+        "type": "sound"
+      },
+      {
+        "id": "349",
+        "name": "Select",
+        "type": "sound"
+      },
+      {
+        "id": "350",
+        "name": "Clang",
+        "type": "sound"
+      },
+      {
+        "id": "351",
+        "name": "Electrocute",
+        "type": "sound"
+      },
+      {
+        "id": "352",
+        "name": "Knock",
+        "type": "sound"
+      },
+      {
+        "id": "353",
+        "name": "Fight",
+        "type": "sound"
+      },
+      {
+        "id": "357",
+        "name": "Pick Up",
+        "type": "sound"
+      },
+      {
+        "id": "359",
+        "name": "Elevator",
+        "type": "sound"
+      },
+      {
+        "id": "361",
+        "name": "Plunger",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "261",
+    "name": "Credits",
+    "type": null,
+    "children": [
+      {
+        "id": "262",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "263",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "268",
+        "name": "OutroMask",
+        "type": "sprite"
+      },
+      {
+        "id": "266",
+        "name": "OutroBehavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "363",
+    "name": "Start",
+    "type": "script"
+  }
+]
