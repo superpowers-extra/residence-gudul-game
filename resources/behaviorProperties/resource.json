@@ -106,8 +106,13 @@
     },
     "CameraBehavior": {
       "scriptId": "2",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
         {
           "name": "offset",
           "type": "number"

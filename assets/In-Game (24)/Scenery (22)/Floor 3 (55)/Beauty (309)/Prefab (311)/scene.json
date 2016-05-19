@@ -91,7 +91,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             }
@@ -134,7 +135,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -172,7 +174,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             },
@@ -231,7 +234,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -269,7 +273,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             },
@@ -328,7 +333,8 @@
                     "verticalFlip": false,
                     "castShadow": false,
                     "receiveShadow": false,
-                    "materialType": "basic"
+                    "materialType": "basic",
+                    "formatVersion": 1
                   },
                   "id": "0"
                 }
@@ -366,7 +372,8 @@
                 "verticalFlip": false,
                 "castShadow": false,
                 "receiveShadow": false,
-                "materialType": "basic"
+                "materialType": "basic",
+                "formatVersion": 1
               },
               "id": "0"
             },

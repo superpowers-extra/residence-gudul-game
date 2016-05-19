@@ -60,17 +60,19 @@ class CameraBehavior extends Sup.Behavior {
     }
     
     // Keys shortcut
-//     if (Sup.Input.wasKeyJustPressed("L")) {
-//       Game.music.stop()
-//       Game.music = null;
-//       Game.musicAsset = null;
-//       Sup.loadScene(Sup.get("Language/Scene", Sup.Scene));
-//     }
+    /*if (false) {
+      if (Sup.Input.wasKeyJustPressed("L")) {
+        Game.music.stop()
+        Game.music = null;
+        Game.musicAsset = null;
+        Sup.loadScene(Sup.get("Language/Scene", Sup.Scene));
+      }
 
-//     if (Sup.Input.wasKeyJustPressed("F")) {
-//       Game.state.activeQuest = "finish";
-//       this.transitionToScene("In-Game/Scenery/Floor 3/Hall/Prefab", "Player Door");
-//     }
+      if (Sup.Input.wasKeyJustPressed("F")) {
+        Game.state.activeQuest = "finish";
+        this.transitionToScene("In-Game/Scenery/Floor 3/Hall/Prefab", "Player Door");
+      }
+    }*/
   }
 
   transitionToScene(scene: string, target: string) {

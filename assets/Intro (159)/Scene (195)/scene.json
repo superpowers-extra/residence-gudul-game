@@ -10,8 +10,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 137,
-                "animationId": null
+                "spriteAssetId": "137",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -41,8 +49,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 280,
-                "animationId": null
+                "spriteAssetId": "280",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             },
@@ -85,7 +101,11 @@
               "y": 0,
               "width": 1,
               "height": 1
-            }
+            },
+            "formatVersion": 1,
+            "depth": 0,
+            "nearClippingPlane": 0.1,
+            "farClippingPlane": 1000
           },
           "id": 0
         },
@@ -122,8 +142,16 @@
         {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": 173,
-            "animationId": null
+            "spriteAssetId": "173",
+            "animationId": null,
+            "formatVersion": 1,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
           },
           "id": 0
         }
@@ -156,8 +184,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 163,
-                "animationId": null
+                "spriteAssetId": "163",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -187,8 +223,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 162,
-                "animationId": null
+                "spriteAssetId": "162",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -216,8 +260,16 @@
         {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": 165,
-            "animationId": null
+            "spriteAssetId": "165",
+            "animationId": null,
+            "formatVersion": 1,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
           },
           "id": 0
         }
@@ -250,8 +302,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 172,
-                "animationId": null
+                "spriteAssetId": "172",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -279,8 +339,16 @@
         {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": 167,
-            "animationId": null
+            "spriteAssetId": "167",
+            "animationId": null,
+            "formatVersion": 1,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
           },
           "id": 0
         }
@@ -310,8 +378,16 @@
         {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": 167,
-            "animationId": null
+            "spriteAssetId": "167",
+            "animationId": null,
+            "formatVersion": 1,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
           },
           "id": 0
         }
@@ -344,8 +420,16 @@
             {
               "type": "SpriteRenderer",
               "config": {
-                "spriteAssetId": 203,
-                "animationId": null
+                "spriteAssetId": "203",
+                "animationId": null,
+                "formatVersion": 1,
+                "overrideOpacity": false,
+                "color": "ffffff",
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "materialType": "basic"
               },
               "id": 0
             }
@@ -373,8 +457,16 @@
         {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": 202,
-            "animationId": null
+            "spriteAssetId": "202",
+            "animationId": null,
+            "formatVersion": 1,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
           },
           "id": 0
         }
@@ -404,8 +496,16 @@
         {
           "type": "SpriteRenderer",
           "config": {
-            "spriteAssetId": 358,
-            "animationId": 0
+            "spriteAssetId": "358",
+            "animationId": "0",
+            "formatVersion": 1,
+            "overrideOpacity": false,
+            "color": "ffffff",
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "materialType": "basic"
           },
           "id": 0
         }
