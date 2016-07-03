@@ -52,8 +52,8 @@ class MenuBehavior extends Sup.Behavior {
         let tween = new Sup.Tween(this.actor, { "scale": 0.001 })
           .to({ "scale": 1 }, 1 * 1000)
           .easing(TWEEN.Easing.Elastic.Out)
-          .onUpdate(function() {
-            behavior.titleScale.set(this.scale, this.scale, 1);
+          .onUpdate((object) => {
+            behavior.titleScale.set(object.scale, object.scale, 1);
             behavior.titleActor.setLocalScale(behavior.titleScale);
           })
           .start();

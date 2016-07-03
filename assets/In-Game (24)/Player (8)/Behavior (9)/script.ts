@@ -129,13 +129,13 @@ class PlayerBehavior extends Sup.Behavior {
       }
     });
     
-    if (closestItem == null && this.hoveredItem != null) {
+    if (closestItem == null && this.hoveredItem != null && !this.hoveredItem.isDestroyed()) {
       this.hoveredItem.getBehavior(ItemBehavior).hover(false);
       this.hoveredItem = null;
     }
     
     if (closestItem != null && closestItem != this.hoveredItem) {
-      if (this.hoveredItem != null) {
+      if (this.hoveredItem != null && !this.hoveredItem.isDestroyed()) {
         this.hoveredItem.getBehavior(ItemBehavior).hover(false)
       }
         
@@ -159,7 +159,7 @@ class PlayerBehavior extends Sup.Behavior {
         }
       }
       
-      if (this.hoveredItem != null && Sup.Input.wasMouseButtonJustReleased(0)
+      if (this.hoveredItem != null && !this.hoveredItem.isDestroyed() && Sup.Input.wasMouseButtonJustReleased(0)
           && Math.abs(this.position.x - this.hoveredItem.getBehavior(ItemBehavior).position.x) <= this.activateDistance) {
         this.activateItem(this.hoveredItem);
         new Sup.Audio.SoundPlayer(Game.selectSound).play()

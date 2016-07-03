@@ -37,11 +37,16 @@
     },
     "ItemBehavior": {
       "scriptId": "16",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
         {
           "name": "isHovered",
           "type": "boolean"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
         },
         {
           "name": "type",
@@ -66,6 +71,7 @@
     },
     "MenuBehavior": {
       "scriptId": "147",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
         {
@@ -137,6 +143,7 @@
     },
     "PlayerBehavior": {
       "scriptId": "9",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
         {
@@ -144,8 +151,20 @@
           "type": "number"
         },
         {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "moveOffset",
+          "type": "Sup.Math.Vector3"
+        },
+        {
           "name": "moveTargetX",
           "type": "number"
+        },
+        {
+          "name": "scale",
+          "type": "Sup.Math.Vector3"
         },
         {
           "name": "canMove",
@@ -162,6 +181,10 @@
         {
           "name": "rightLimit",
           "type": "number"
+        },
+        {
+          "name": "mousePosition",
+          "type": "Sup.Math.Vector3"
         },
         {
           "name": "activateDistance",

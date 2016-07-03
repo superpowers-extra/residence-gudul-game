@@ -12,6 +12,8 @@ class ItemBehavior extends Sup.Behavior {
     this.position.z = 0;
   }
   onDestroy() {
+    if (Game.playerBehavior.hoveredItem === this.actor) Game.playerBehavior.hoveredItem = null;
+    
     let index = Game.itemBehaviors.indexOf(this);
     if (index !== -1) Game.itemBehaviors.splice(index, 1);
   }
